@@ -1,10 +1,17 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Age Project</title>
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/age.css" rel="stylesheet" media="screen">
 </head>
 <body>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<div id="container">
+<header><h1>Age Calculator</h1></header>
 <?php 
 //check to see if the page is loading from a POST request
 if ($_SERVER['REQUEST_METHOD'] === 'POST' ) {
@@ -19,7 +26,7 @@ $age =  age($_POST['birthdate']);
 if ($age > 21) {
 	// if so, display a positive result , including the age and a smiley face image
 	?>
-    <h2 style="color:green">You are <?php echo intval($age) ?>, Have fun, but drink responsibly.</h2>
+  <h2 style="color:green">You are <?php echo intval($age) ?>, Have fun, but drink responsibly.</h2>
     <img src="http://nelsonaspen.com/blog/wp-content/uploads/2012/05/smile.jpg" width=100 height=100 />
     <?php
 
@@ -40,5 +47,6 @@ if ($age > 21) {
 	<?php
 }
 ?>
+</div>
 </body>
 </html>
