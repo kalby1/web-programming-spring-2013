@@ -6,6 +6,17 @@
 <title>Age Project</title>
 <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="css/age.css" rel="stylesheet" media="screen">
+<style> <!--round corners for a border-->
+div
+{
+	border:2px solid #a1a1a1;
+	padding:10px 40px;
+	width:500px;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	background-color: #333;
+}
+</style>
 </head>
 <body>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
