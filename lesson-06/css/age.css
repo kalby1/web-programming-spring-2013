@@ -1,0 +1,18 @@
+@charset "utf-8";
+header {
+	background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(top,  #b4e391 44%, #61c419 45%, #ea1748 46%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(44%,#b4e391), color-stop(45%,#61c419), color-stop(46%,#ea1748)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b4e391 44%,#61c419 45%,#ea1748 46%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b4e391 44%,#61c419 45%,#ea1748 46%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b4e391 44%,#61c419 45%,#ea1748 46%); /* IE10+ */
+background: linear-gradient(to bottom,  #b4e391 44%,#61c419 45%,#ea1748 46%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#ea1748',GradientType=0 ); /* IE6-9 */
+
+	
+}
+
+#container {
+	margin-right: auto;
+	margin-left: auto;
+}
