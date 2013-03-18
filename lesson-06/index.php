@@ -25,6 +25,7 @@
     <!-- Le styles -->
     
     <link href="css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -51,13 +52,7 @@
       <script src="../assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-<!--    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
--->  </head>
+</head>
 
 <body>
 
@@ -183,10 +178,13 @@
   	<div class="row"><p class="span2">Email</p><input type="email" id="email" class="span4" /></div>  	
     <div class="row"><p class="span2">Phone</p><input type="tel" id="phone" class="span4" /></div>
     <div class="row"><p class="span2">Comment</p><textarea name="comment" id="comment" class="span4" cols="" rows=""></textarea></div>
-    <div class="row"><p class="span2">Prefer we call? Check box.</p><input type="checkbox" class="span4 " value="Yes" /></div>
+    <br />
+    <p>Check boxes that apply!</p>
     
-
-
+    <div class="row"><p class="span2">Prefer we call?</p><input type="checkbox" class="span4 choices" value="Yes" /></div>
+    <div class="row"><p class="span2">Want to speak with a counselor?</p><input type="checkbox" class="span4 choices" value="Yes" /></div>
+    <div class="row"><p class="span2">A favorite area of interest already?</p><input type="checkbox" class="span4 choices" value="Yes" /></div>
+    <br />
 	<p>We are @Pro-Effort on twitter.</p>
   </div>
   <div class="modal-footer">
@@ -199,6 +197,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="jquery.js"></script>
     <script src="bootstrap.js"></script>
+    <script src="send-contactCW.js"></script>
 
   </body>
 </html>
