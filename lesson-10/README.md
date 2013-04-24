@@ -1,6 +1,11 @@
-web-programming-spring-2013
-=================
+<h2>MyTunes</h2>
 
-SRJC CS53.11B Section 5250
+<h3>A Tutorial for CS53.11b at Santa Rosa Junior College
+Advanced Dreamweaver Topics</h3>
 
-This is a template repository for Santa Rosa Junior College students.    Clone this repository into your account 
+Creating an HTML5 Web Database Application with Javascript JQuery AJAX JSON PHP & MySQL.
+
+The best way to follow along with the tutorials is read the comments in the commits and view the online tutorials.
+Each week's tutorial is bookmarked in the Tags for easy downloading.
+
+
